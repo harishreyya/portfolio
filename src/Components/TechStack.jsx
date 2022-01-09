@@ -27,6 +27,10 @@ const Tech = styled.div`
     .logo {
         height: 90%;
     }
+    .logo:hover {
+        height: 70%;
+        transition:0.5s;
+    }
 
     .stack-item > h5 {
         margin-top: 3px;

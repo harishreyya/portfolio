@@ -19,6 +19,7 @@ const Container = styled.div`
 
     .highlight {
         color: black;
+        font-size:70px;
     }
 
     img {
@@ -33,7 +34,7 @@ const Container = styled.div`
     }
 
     .small-text {
-        font-size: 30px;
+        font-size: 40px;
 
         @media only screen and (max-width: 767px) {
             font-size: 17px;
@@ -51,6 +52,7 @@ export default function Home() {
                 <span className="highlight">Reyya Harish</span> <br />
                 <span className="small-text"> A Full-Stack Web Developer</span>
             </div>
+            
             
         </Container>
     );

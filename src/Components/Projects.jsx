@@ -29,11 +29,11 @@ export default function Projects() {
         {
             id: 1,
             title: "Lybrate-clone",
-            desc: "Lybrate.com innovative online doctor database gives you access to over 150,000 highly trained medical experts. So you can ask a doctor anything you want.",
+            desc: "Lybrate.com innovative online doctor database gives you access to over 150,000 highly trained medical experts.So you can ask a doctor anything you want.",
             demo: null,
-            github: "https://m-sehrawat.github.io/Lybrate-Website-Clone/frontend/landingpage.html",
-            Demo:"https://drive.google.com/file/d/10dzxdQXBFoev6XhebczGTo7pruGhu-E1/view?usp=sharing",
-            main: "/Lybrate-Logo.webp",
+            github: "https://github.com/m-sehrawat/Lybrate-Website-Clone-Version-2.0",
+            Demo:"https://m-sehrawat.github.io/Lybrate-Website-Clone/frontend/landingpage.html",
+            main: "https://user-images.githubusercontent.com/87423101/141508718-e9148092-a7e3-4394-ba9a-4ce78666d9a7.png",
             stack: [
                 "/html.webp",
                 "css.webp",
@@ -48,9 +48,9 @@ export default function Projects() {
             title: "Kimaye",
             desc: "KIMAYE is an Indian e-commerce company.Its a fruits door step delivery website",
             demo: null,
-            github:"https://harishreyya.github.io/kimaye/",
-            Demo:"https://drive.google.com/file/d/1rLmyA-dCT4KQuEmZ5Tw0l87JKlZJFvGf/view?usp=sharing",
-            main: "/kimaye_logo.png",
+            github:"https://github.com/harishreyya/kimaye",
+            Demo:"https://harishreyya.github.io/kimaye/",
+            main: "https://user-images.githubusercontent.com/87423101/135589828-fb8a042e-34d4-4a6e-a7ce-27bd0e1dcb7b.png",
             stack: [
                 "/html.webp",
                 "css.webp",
