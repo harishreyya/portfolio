@@ -13,7 +13,9 @@ import {
     AiOutlineHome,
     AiOutlineFundProjectionScreen,
     AiOutlineUser,
-    AiOutlineContacts
+    AiOutlineContacts,
+    AiOutlineAppstore,
+    AiOutlineTool
 } from "react-icons/ai";
 
 export const Navbarjsx = () => {
@@ -84,6 +86,18 @@ export const Navbarjsx = () => {
                                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
                             </Nav.Link>
                         </Nav.Item>
+
+                        <Nav.Item>
+                            <Nav.Link
+                                as={Link}
+                                to="/Techstack"
+                                onClick={(() => setexpand(false)// eslint-disable-next-line , 
+                                    , () => setpathstate("#Techstack"))}
+                            >
+                                <AiOutlineTool style={{ marginBottom: "2px" }} /> Techstack
+                            </Nav.Link>
+                        </Nav.Item>
+                       
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
@@ -99,7 +113,6 @@ export const Navbarjsx = () => {
                                 Projects
                             </Nav.Link>
                         </Nav.Item>
-                       
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}

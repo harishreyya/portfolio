@@ -33,11 +33,12 @@ export const About = () => {
             </Tilt>
           </Col>
         </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple"> Skills </strong>
-        </h1>
-        <TechStack/>
+       
+        
       </Container>
+     
+        
     </Container>
+    
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import "./Techstack.css";
 import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
@@ -20,7 +21,13 @@ import {
 import { SiRedux} from "react-icons/si";
 export const TechStack = () => {
   return (
+    <div>
+    <h1 className="Skills-heading">
+          Professional <strong className="purple"> Skills </strong>
+        </h1>
+        
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      
       <Col xs={4} md={2} className="tech-icons">
         <DiReact /> <h6>react</h6>
       </Col>
@@ -53,5 +60,6 @@ export const TechStack = () => {
       </Col>
      
     </Row>
+    </div>
   );
 };

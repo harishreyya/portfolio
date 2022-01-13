@@ -1,6 +1,8 @@
 import React from "react";
 import { Navbarjsx } from "./Components/Navbar/Navbar";
 import "./styles.css";
+import "./Components/About/About.css"
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Home } from "./Components/Home/Home";
 import { Preloader } from "./Components/Pre";
@@ -8,6 +10,7 @@ import { About } from "./Components/About/About";
 import { Projects } from "./Components/Projects/Projects";
 import { Contact } from "./Components/Contact/Contact";
 import { Footer } from "./Components/Footer/Footer";
+import { TechStack } from "./Components/About/Techstack";
 
 
 export default function App() {
@@ -30,6 +33,13 @@ export default function App() {
         <section id="#about">
           <About />
         </section>
+
+        <section id="#Techstack">
+        
+          <TechStack />
+        </section>
+        
+
         <section id="#projects">
           <Projects />
         </section>

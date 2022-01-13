@@ -7,7 +7,7 @@ import Clockifylogo from "../Assets/Internshala.png";
 //import Covidlogo from "../Assets/21.png";
 //import Travelocitylogo from "../Assets/22.png";
 //import Airgaragelogo from "../Assets/23.png";
-import { DiReact, DiJavascript, DiGithubBadge, DiHtml5,DiMongodb } from "react-icons/di";
+import { DiReact, DiJavascript, DiGithubBadge, DiHtml5,DiMongodb, DiNodejs } from "react-icons/di";
 //import { SiRedux, SiStyledComponents, SiMaterialUi } from "react-icons/si";
 import { FaLink, FaCss3 } from "react-icons/fa";
 export const Projects = () => {
@@ -38,6 +38,7 @@ export const Projects = () => {
                                     <FaCss3 className="Techstacks-icons" />
                                     <DiHtml5 className="Techstacks-icons" />
                                     <DiMongodb className="Techstacks-icons" />
+                                    <DiNodejs className="Techstacks-icons" />
                                 </div>
                                 <Button
                                     variant="primary"
